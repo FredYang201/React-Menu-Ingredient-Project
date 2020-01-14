@@ -38,7 +38,7 @@ function App() {
   return (
     <div className="App">
       <form onSubmit={getSearch} className='search-form'>
-        <input className='search-bar' style={{marginTop: '50px'}} type='text' value={search} placeholder={'Searching for meal...'} onChange={updateSearch}/>&nbsp;
+        <input className='search-bar' style={{marginTop: '50px'}} type='text' value={search} placeholder={'Searching for beef, chicken...'} onChange={updateSearch}/>&nbsp;
         <button className='search-button' style={{marginTop: '50px'}} type='submit'>
           Search
         </button>
