@@ -12,7 +12,7 @@ function App() {
   const [search, setSearch] = useState('')
   const [query, setQuery] = useState('chicken')
 
-  const exampleReq = `https://api.edamam.com/search?q=${query}&app_id=${appId}&app_key=${appKey}`
+  const exampleReq = `https://api.edamam.com/search?q=${query}&app_id=${appId}&app_key=${appKey}&from=0&to=20`
 
   const getRecipts = async () => {
     const response = await fetch(exampleReq)
